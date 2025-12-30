@@ -1,54 +1,54 @@
-# Bright Data Web Unlocker Python project
+# Bright Data Web Unlocker Pythonプロジェクト
 
-[![Bright Data Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.com/)
+[![Bright Data Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.jp/)
 
-<a href="https://githubbox.com/luminati-io/bright-data-web-unlocker-python-project?file=index.py" target="_blank">Open in CodeSandbox</a>, sign in with GitHub, then fork the repository to begin making changes.
+<a href="https://githubbox.com/luminati-io/bright-data-web-unlocker-python-project?file=index.py" target="_blank">CodeSandboxで開く</a>をクリックし、GitHubでサインインしてから、リポジトリをフォークして変更を開始してください。
 
-## Bright Data Web Unlocker API Example
+## Bright Data Web Unlocker APIの例
 
-This project demonstrates how to use [Bright Data's Web Unlocker API](https://brightdata.com/products/web-unlocker) to access websites through [Bright Data Web Unlocker API](https://brightdata.com/products/web-unlocker).
+このプロジェクトでは、[Bright DataのWeb Unlocker API](https://brightdata.jp/products/web-unlocker) を使用して、[Bright Data Web Unlocker API](https://brightdata.jp/products/web-unlocker) 経由でWebサイトにアクセスする方法を示します。
 
-## Overview
+## 概要
 
-This script helps you access websites with anti-bot protection or CAPTCHAs by using Bright Data's Web Unlocker to automatically bypass these obstacles.
+このスクリプトは、Bright DataのWeb Unlockerを使用してアンチボット保護やCAPTCHAを自動的に回避することで、Webサイトへのアクセスを支援します。
 
-### Direct configuration
+### 直接設定
 
-1. Replace `BRIGHT_DATA_API_TOKEN` with your actual API token
-2. Replace `web_unlocker1` with your zone
-3. Replace `https://geo.brdtest.com/welcome.txt` with your target URL
+1. `BRIGHT_DATA_API_TOKEN` を実際のAPIトークンに置き換えてください
+2. `web_unlocker1` をご自身のzoneに置き換えてください
+3. `https://geo.brdtest.com/welcome.txt` をターゲットURLに置き換えてください
 
-## Running the example
+## 例の実行
 
-1. Make sure you've configured your `API token` and `zone`
-2. Run `python index.py` in the terminal
-3. Check the console output for the results
+1. `API token` と `zone` が設定されていることを確認してください
+2. ターミナルで `python index.py` を実行してください
+3. 結果についてコンソール出力を確認してください
 
-## How it works?
+## どのように動作しますか？
 
-1. The script makes a POST request to Bright Data's Unlocker API endpoint
-2. It includes your authentication token and target URL
-3. Bright Data's Web Unlocker accesses the target URL
-4. The response is returned to your script and displayed in the console
+1. スクリプトがBright DataのUnlocker APIエンドポイントにPOSTリクエストを送信します
+2. 認証トークンとターゲットURLが含まれます
+3. Bright DataのWeb UnlockerがターゲットURLにアクセスします
+4. レスポンスがスクリプトに返され、コンソールに表示されます
 
-## Troubleshooting
+## トラブルシューティング
 
-If you encounter errors:
+エラーが発生した場合:
 
-- Verify your API token is correct
-- Check that your zone name is valid
-- Ensure your target URL is properly formatted
+- APIトークンが正しいことを確認してください
+- zone名が有効であることを確認してください
+- ターゲットURLが正しい形式になっていることを確認してください
 
-## Modifying the example
+## 例の変更
 
-To request a different URL:
-1. Update the `targetUrl` in the CONFIG object
-2. Run the script again
+別のURLをリクエストするには:
+1. CONFIGオブジェクト内の `targetUrl` を更新してください
+2. スクリプトを再実行してください
 
-## Additional resources
+## 追加リソース
 
 - [Bright Data Web Unlocker API](https://docs.brightdata.com/scraping-automation/web-unlocker/introduction)
-- [Get an API Token](https://docs.brightdata.com/general/account/api-token)
-- [Manage Zones](https://brightdata.com/cp/zones)
+- [API Tokenを取得する](https://docs.brightdata.com/general/account/api-token)
+- [Zonesを管理する](https://brightdata.jp/cp/zones)
 
-**Note:** This is an example implementation for educational purposes. For production use, consider adding additional error handling, logging, and security measures.
+**注:** これは学習目的のサンプル実装です。本番環境で使用する場合は、追加のエラーハンドリング、ログ記録、セキュリティ対策の追加をご検討ください。
