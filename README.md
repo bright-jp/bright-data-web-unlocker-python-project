@@ -1,8 +1,8 @@
 # Bright Data Web Unlocker Pythonプロジェクト
 
-[![Bright Data Promo](https://github.com/luminati-io/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.jp/)
+[![Bright Data Promo](https://github.com/bright-jp/LinkedIn-Scraper/raw/main/Proxies%20and%20scrapers%20GitHub%20bonus%20banner.png)](https://brightdata.jp/)
 
-<a href="https://githubbox.com/luminati-io/bright-data-web-unlocker-python-project?file=index.py" target="_blank">CodeSandboxで開く</a>をクリックし、GitHubでサインインしてから、リポジトリをフォークして変更を開始してください。
+<a href="https://githubbox.com/bright-jp/bright-data-web-unlocker-python-project?file=index.py" target="_blank">CodeSandboxで開く</a>をクリックし、GitHubでサインインしてから、リポジトリをフォークして変更を開始してください。
 
 ## Bright Data Web Unlocker APIの例
 
